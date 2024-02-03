@@ -1,0 +1,16 @@
+query getAllCountries {
+  countries {
+    name
+    capital
+  }
+}
+query getUZCountry {
+  country(code: "UZ") {
+    name
+  }
+}
+query getTNCountry {
+  country(code: "TN") {
+    name
+  }
+}
